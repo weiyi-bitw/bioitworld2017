@@ -2,7 +2,7 @@
 # Docker file to build container with tensorflow, Keras
 #
 
-FROM tensorflow/tensorflow:latest-gpu
+FROM tensorflow/tensorflow:latest
 
 MAINTAINER Wei-Yi Cheng
 
