@@ -1,8 +1,8 @@
 __BioIT World 2017 Pre-conference Workshop__
 __W9 - Data Science Driving Better Informed Decisions__
 
-# From Regression to Neural Networks:
-# Getting Insight from Your Data Through Quantitative Analysis
+# From Regression to Neural Networks: Getting Insight from Your Data Through
+Quantitative Analysis
 
 _Wei-Yi Cheng, Ph.D._
 _Data Scientist, Roche Innovation Center New York_
