@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y git-core && \
 RUN pip install keras pandas h5py && \
     rm -rf /root/.cache/pip/*
 
-RUN cd / && git clone  && \
+RUN cd / && git clone https://github.com/weiyi-bitw/bioitworld2017.git && \
     cd bioitworld2017 && \
     tar -zxvf bioitworld2017_data.tar.gz
 
