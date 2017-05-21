@@ -23,13 +23,16 @@ error), you can build the docker image for this tutorial simply by doing
 ```
 cd /path/to/where/you/clone/bioitworld2017
 cd docker
-docker build .
+docker build --tag deeplearning .
 ```
 
 Once the image is built, you can run
 
 ```
-
+docker run -it --rm -p 8888:8888 deeplearning jupyter-notebook --no-browser --ip=*
 ```
 
+This command will give you a link to the jupyter notebook with a secure token,
+_e.g._ `http://localhost:8888/?token=f67b0b3ddd446900c4f94822af2275c5883d029322efda07`.
+Enter this link in your browser, it will then take you to jupyter notebook.
 
